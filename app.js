@@ -478,7 +478,7 @@ function renderResult(){
         <div class="reason-item"><div class="reason-emoji">🔒</div><div class="reason-txt">This UID is already bound to another device. <strong>One UID = one device only.</strong></div></div>
         <div class="reason-item"><div class="reason-emoji">💬</div><div class="reason-txt">Contact admin to unbind: <strong>@Richard_Carter7</strong></div></div>
       `:`
-        <div class="reason-item"><div class="reason-emoji">🚨</div><div class="reason-txt"><strong>Bot activation required</strong> — recharge ₹300 and retry.</div></div>
+        <div class="reason-item"><div class="reason-emoji">🚨</div><div class="reason-txt"><strong>Bot activation required</strong> — recharge ₹200 and retry.</div></div>
         <div class="reason-item"><div class="reason-emoji">⚠️</div><div class="reason-txt">Only UIDs from the <strong>official registration link</strong> are accepted by this bot.</div></div>
       `}
     </div>
