@@ -263,7 +263,7 @@ function renderSplash(){
 
     <div class="splash-top" style="animation:fadeDown .6s ease-out both">
       <div class="splash-badge"><span class="splash-badge-dot"></span>PREMIUM BOT</div>
-      <div class="splash-title">JaiClub<br>Sureshot</div>
+      <div class="splash-title">13L <br>Sureshot</div>
       <div class="splash-sub">India's Elite Colour Prediction</div>
     </div>
 
@@ -327,7 +327,7 @@ function renderHome(){
       <div class="logo-wrap" id="logo-trigger">
         <div class="logo-icon">👑</div>
         <div>
-          <div class="logo-name">JaiClub</div>
+          <div class="logo-name">13L </div>
           <div class="logo-tag">SURESHOT · PREMIUM</div>
         </div>
       </div>
@@ -341,7 +341,7 @@ function renderHome(){
 
     <div class="info-card" style="animation:fadeUp .45s ease-out .08s both">
       <div class="scan-line"></div>
-      <div class="info-title">🏆 JaiClubGame Prediction Bot</div>
+      <div class="info-title">🏆 13L Game Prediction Bot</div>
       <div class="info-body">Elite AI-powered predictions with <strong style="color:var(--gold)">94% accuracy</strong>. Official UID verification required for access.</div>
       <div class="info-warn">⚠ Only UIDs from official registration link are accepted</div>
     </div>
@@ -367,7 +367,7 @@ function renderHome(){
 
 function optCard(color,id,emoji,icon,title,sub){
   const onclick = id==="support"
-    ? `Telegram.WebApp.openTelegramLink('https://t.me/Shetty_Bhaiii')`
+    ? `Telegram.WebApp.openTelegramLink('https://t.me/m/YH2mhVGPYTBl')`
     : `chooseOption('${id}')`;
   return `<button class="opt-card ${color}" onclick="${onclick}">
     <div class="opt-inner">
@@ -402,7 +402,7 @@ function renderUid(){
           </div>
         </div>
       </div>
-      <button class="reg-btn" onclick="window.open('https://www.jaiclub40.com/#/register?invitationCode=27868186702','_blank')">
+      <button class="reg-btn" onclick="window.open('https://13l666.com/register?inviteCode=7F2RZGN&from=web','_blank')">
         ${ICONS.external} Register on Official Site
       </button>
       <div class="warn-row">⚠ Unofficial link registration → verification will fail</div>
@@ -454,8 +454,8 @@ function renderProcessing(){
 
 function renderResult(){
   const lock = S.failReason==="device_mismatch";
-  const contactAdmin = `Telegram.WebApp.openTelegramLink('https://t.me/Shetty_Bhaiii')`;
-  const registerOfficial = `window.open('https://www.jaiclub40.com/#/register?invitationCode=27868186702','_blank')`;
+  const contactAdmin = `Telegram.WebApp.openTelegramLink('https://t.me/m/YH2mhVGPYTBl')`;
+  const registerOfficial = `window.open('https://13l666.com/register?inviteCode=7F2RZGN&from=web','_blank')`;
 
   if (!lock) {
     setTimeout(playVoiceNotice, 100);
@@ -476,9 +476,9 @@ function renderResult(){
     <div class="reason-list" style="animation:fadeUp .4s ease-out .1s both">
       ${lock?`
         <div class="reason-item"><div class="reason-emoji">🔒</div><div class="reason-txt">This UID is already bound to another device. <strong>One UID = one device only.</strong></div></div>
-        <div class="reason-item"><div class="reason-emoji">💬</div><div class="reason-txt">Contact admin to unbind: <strong>@Shetty_Bhaiii</strong></div></div>
+        <div class="reason-item"><div class="reason-emoji">💬</div><div class="reason-txt">Contact admin to unbind: <strong>@Richard_Carter7</strong></div></div>
       `:`
-        <div class="reason-item"><div class="reason-emoji">🚨</div><div class="reason-txt"><strong>Bot activation required</strong> — recharge ₹200 and retry.</div></div>
+        <div class="reason-item"><div class="reason-emoji">🚨</div><div class="reason-txt"><strong>Bot activation required</strong> — recharge ₹300 and retry.</div></div>
         <div class="reason-item"><div class="reason-emoji">⚠️</div><div class="reason-txt">Only UIDs from the <strong>official registration link</strong> are accepted by this bot.</div></div>
       `}
     </div>
